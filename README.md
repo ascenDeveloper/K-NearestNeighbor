@@ -96,3 +96,5 @@ As you can see the output sequentially prints the data processed, feature matrix
 
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
+
+###### README version: 1.3.1

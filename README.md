@@ -2,6 +2,8 @@
 
 Example of the K-NN algorithm(a machine learning technique) without actual learning.
 
+The K-NN algorithm is a machine learning technique that help us to quantify the similarity of X image to the K nearly images. It's a technique that uses a lot of computation, that's why you ought be carefully to use this algorithm in other datasets. However, it's really good even without learning algorithms, we don't add an actual learning to this project, I prefer add learning to our K-NN algorithm in other project. 
+
 ## Installation
 
 I'm using [pip](https://pip.pypa.io/en/stable/) as a package-management.
@@ -34,9 +36,28 @@ https://www.kaggle.com/datasets/ashishsaxena2209/animal-image-datasetdog-cat-and
 
 Actually no matter the dataset only if the dataset is not big or because this algorithm need more compute power than a usual machine learning algorithm, obviously is not a problem for most of today computers but be careful with your RAM.
 
-## Dependecies versions
+#### Locate dataset
 
-Comming soon.
+    1.- You must download the dataset from the link
+    2.- Unzip the dataset, in my case the dataset name is archive.zip
+    3.- Delete extra images and double images the dataset gives me two datasets with the same images.
+    4.- You ought to locate the dataset inside Knn directory at the same level of knn.py.
+    5.- Run the command in the usage section and look at the output
+
+## Versions
+
+    Numpy version: 1.24.1
+
+    Tensorflow version: 2.11.0
+
+    Keras version: 2.11.0
+
+    Scikit-learn version: 1.2.1
+
+    OpenCv version: 4.5.4
+
+Python version 3.10.6
+
 
 ## Usage
 
@@ -68,6 +89,8 @@ weighted avg       0.51      0.46      0.45       750
 ```
 
 The output style should be equal or pretty similar to the bash output above.
+
+As you can see the output sequentially prints the data processed, feature matrix, knn evaluation and the important output like precicion and accuracy.
 
 ## Contributing
 

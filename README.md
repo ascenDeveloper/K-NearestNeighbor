@@ -22,6 +22,8 @@ As you can see there is a lot of dependencies later I will specify the versions 
 
 Note that tensorflow doesn't support Windows. You should be careful in the installation of tensorflow but it's possible use other version of the dependencies. I'm not sure of the state of some dependencies on Windows.
 
+All libraries works well on Linux and MacOs.
+
 ## Dataset
 
 The recommended dataset is Animal Image Dataset(DOG, CAT and PANDA) dataset from kaggle
@@ -41,6 +43,31 @@ Comming soon.
 ```bash
 python3 knn.py --dataset ./animals
 ```
+
+The bash input command above should give you a output like the bash output below:
+
+```bash
+[INFO] loaging images...
+[INFO] processed 500/3000
+[INFO] processed 1000/3000
+[INFO] processed 1500/3000
+[INFO] processed 2000/3000
+[INFO] processed 2500/3000
+[INFO] processed 3000/3000
+[INFO] fearures matrix: 9.0MB
+[INFO] evaluating k-NN classifier
+              precision    recall  f1-score   support
+
+        cats       0.41      0.53      0.47       249
+        dogs       0.41      0.52      0.46       262
+       panda       0.72      0.31      0.43       239
+
+    accuracy                           0.46       750
+   macro avg       0.52      0.45      0.45       750
+weighted avg       0.51      0.46      0.45       750
+```
+
+The output style should be equal or pretty similar to the bash output above.
 
 ## Contributing
 

@@ -1,3 +1,5 @@
+#Import the libraries necessary to run our Knn algorithm
+##Sklearn libraries for preconfiguration and models
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
